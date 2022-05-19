@@ -1,0 +1,110 @@
+@font-face
+{
+	font-family: pointsoft;
+	src: url("Point Soft Semi Bold.otf") ;
+}
+
+body {
+  font-size: 16px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color:white;
+  font-family: pointsoft;
+}
+
+#header-nav {
+  background-color:#999999;
+  border-radius: 0;
+  border: 2px solid black;
+  min-height: 70px;
+}
+
+.navbar-brand{
+  margin-top: 5px;
+  padding-top:5px;
+}
+
+.navbar-brand h1 {
+  font-family: pointsoft;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+  border:2px solid;
+}
+#nav-list:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li{
+  background:#fff;
+  border-bottom:2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  line-height: 8px
+}
+
+#nav-list a {
+  color:black;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background:whitesmoke;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+#collapsable-nav{
+    margin-top: 0px;
+}
+
+.navbar-nav{
+  margin:0 -15px !important;
+}
+
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: auto;
+  padding: 20px 40px 20px 40px;
+  background-color:#999999;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+.footer-copyright{
+  padding: 50px;
+}
